@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904638357734",
+    "project_id": "shild-e8fc5",
+    "storage_bucket": "shild-e8fc5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904638357734:android:33aaeba5dd47e8e2001b27",
+        "android_client_info": {
+          "package_name": "com.socialseller.dummyapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNR8lc4LfLiNI7c4mEM82fMHFujgMbMiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

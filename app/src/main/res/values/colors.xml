@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_background">#000002</color>
+    <color name="main_decorations">#5d9d76</color>
+    <color name="main_decorations_dark">#378756</color>
+    <color name="main_text_color">#f7f5f5</color>
+    <color name="main_text_color_neutral">#000000</color>
+    <color name="main_selection">#FF9933</color>
+    <color name="main_selection_border">#993300</color>
+    <!-- ok and non ok colors -->
+    <color name="main_ok_color">#38ec38</color>
+    <color name="main_ok_color_border">#31b831</color>
+    <color name="main_non_okcolor">#d40000</color>
+    <color name="main_non_okcolor_border">#b10000</color>
+    <color name="main_disabled">#d7d7d7</color>
+    <color name="main_disabled_border">#919191</color>
+    <!-- form related colors -->
+    <color name="formbgcolor">#FFFFFF</color>
+    <color name="formcolor">#5d9d76</color>
+    <color name="formcolorselected">#ff0000</color>
+    <!-- others colors -->
+    <color name="tanto_blue">#27547e</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="scanner_line">#00ceff</color>
+    <!--    //my color-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#1b1e28</color>
+    <color name="blue">#7D42E8</color>
+    <color name="purple_blue">#792FFF</color>
+    <color name="pink_blue">#B973F8</color>
+    <color name="green">#16c47f</color>
+    <color name="greay">#9797a5</color>
+    <color name="lite_greay">#BFC9CA</color>
+    <color name="transparent">#00000000</color>
+    <color name="limeGreay">#f0edfe</color>
+    <color name="dark_greay">#b8b8b8</color>
+    <color name="lite_background">#2e2d42</color>
+    <color name="bg">#424949 </color>
+    <color name="red">#CB202D </color>
+    <color name="orange">#FF8C00 </color>
+    <color name="yellow">#FFC107</color>
+    <color name="skyBlue">#005cb9</color>>
+    <color name="cBlue">#079BF4</color>
+    <color name="cGray">#DAD0EF</color>
+    <color name="appColor">#FF9500</color>
+    <color name="appSecoundryColor">#b189ff</color>
+    <color name="cardBgColor">#F9FAFC</color>
+    <color name="kai">#60A979</color>
+    <color name="app_bg_color">#FFFFFFFF</color>
+    <color name="app_ed_outline_color">#E8ECF4</color>
+</resources>

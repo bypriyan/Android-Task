@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:padding="@dimen/_15sdp"
+    android:orientation="vertical"
+    tools:context=".ui.home.AddPlaceFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <!-- Full Name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPlaceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Place Name"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:background="@drawable/white_bg_greay_outline_background"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textColorHint="@color/greay"
+            android:textSize="@dimen/_12ssp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPlaceDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:background="@drawable/white_bg_greay_outline_background"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:textColorHint="@color/greay"
+            android:textSize="@dimen/_12ssp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPickImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:backgroundTint="@color/appColor"
+        android:text="SelectImage"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:cornerRadius="@dimen/_10sdp" />
+
+    <ImageView android:id="@+id/imageView"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"/>
+
+    <FrameLayout
+        android:id="@+id/btnFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordLayout">
+
+        <!-- Request OTP Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_48sdp"
+            android:backgroundTint="@color/appColor"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="@dimen/_10sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/appColor"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+</LinearLayout>

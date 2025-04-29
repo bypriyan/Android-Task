@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dummy Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_image_prompt">Please select a profile image</string>
+    <string name="registration_success">Registration successful</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="error_name_required">Full name is required</string>
+    <string name="error_name_short">Name too short (min 3 characters)</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Enter a valid email</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="error_password_complexity">Password must contain at least one number and one special character</string>
+    <string name="error_confirm_required">Please confirm your password</string>
+    <string name="error_password_mismatch">Passwords don\'t match</string>
+
+</resources>
