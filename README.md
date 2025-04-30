@@ -81,6 +81,32 @@ To get started with the app, follow these steps:
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/bypriyan/Android-Task.git
 cd Android-Task
+
+2. Open the project in Android Studio.
+
+3. Set up Firebase for your Android app:
+   - Go to the [Firebase Console](https://console.firebase.google.com/)
+   - Create a new project or use an existing one
+   - Add your Android app to the project
+   - Follow the instructions to download the `google-services.json` file and place it in the `app` directory
+   - Enable Firebase Authentication (Email/Password and Phone)
+
+4. Build and run the app on your Android device or emulator.
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit pull requests for any enhancements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out to me at [104priyanshu@gmail.com].
+
+---
+
+Thank you for checking out MyPlaces! We hope you enjoy using the app as much as we enjoyed building it.
