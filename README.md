@@ -39,13 +39,13 @@ A Kotlin-based Android application to manage and explore your favorite places on
 https://github.com/user-attachments/assets/4c917d31-14ac-4fd2-b86c-7c5925a29885
 
 ## 🖼️ Screenshots
-![1](https://github.com/user-attachments/assets/202960e5-30e4-4358-9dd5-7b8207b6fdfb)
-![2](https://github.com/user-attachments/assets/43d0b2a3-9c08-418b-866e-dd21ccb141e4)
-![3](https://github.com/user-attachments/assets/410fb90d-6e5c-4a12-ba01-ca22ad8d2b8a)
-![4](https://github.com/user-attachments/assets/eac409c2-617a-4615-b053-7cedd169f502)
-![5](https://github.com/user-attachments/assets/9bc10a56-926c-4e8e-a1a7-87835ceff5e2)
-![6](https://github.com/user-attachments/assets/1a563986-2fd7-49d1-b8d9-1ad8e837612d)
-![8](https://github.com/user-attachments/assets/c6f12406-9ee2-4374-ba91-71e2ac83a7ba)
+![1](https://github.com/user-attachments/assets/6043af57-cfd9-44fc-8a56-ee0e418c75f9)
+![2](https://github.com/user-attachments/assets/3aa5a7b4-5db7-4527-9296-8a4c9353e9f4)
+![3](https://github.com/user-attachments/assets/b2b82dd7-3ea5-48a1-b904-e3650512e968)
+![4](https://github.com/user-attachments/assets/994fc560-b722-4255-b8ee-1e2f2e261162)
+![5](https://github.com/user-attachments/assets/edc32525-96b6-44e4-a65f-5238151937f2)
+![6](https://github.com/user-attachments/assets/e367fa3f-c2d7-4819-b0ab-fba5edaaccd9)
+![8](https://github.com/user-attachments/assets/28bb1702-7a25-45b0-ac24-a377e06b4a08)
 
 ---
 
