@@ -39,13 +39,13 @@ A Kotlin-based Android application to manage and explore your favorite places on
 https://github.com/user-attachments/assets/4c917d31-14ac-4fd2-b86c-7c5925a29885
 
 ## 🖼️ Screenshots
-![1](https://github.com/user-attachments/assets/6043af57-cfd9-44fc-8a56-ee0e418c75f9)
-![2](https://github.com/user-attachments/assets/3aa5a7b4-5db7-4527-9296-8a4c9353e9f4)
-![3](https://github.com/user-attachments/assets/b2b82dd7-3ea5-48a1-b904-e3650512e968)
-![4](https://github.com/user-attachments/assets/994fc560-b722-4255-b8ee-1e2f2e261162)
-![5](https://github.com/user-attachments/assets/edc32525-96b6-44e4-a65f-5238151937f2)
-![6](https://github.com/user-attachments/assets/e367fa3f-c2d7-4819-b0ab-fba5edaaccd9)
-![8](https://github.com/user-attachments/assets/28bb1702-7a25-45b0-ac24-a377e06b4a08)
+![Login](https://github.com/user-attachments/assets/6043af57-cfd9-44fc-8a56-ee0e418c75f9)
+![Signup](https://github.com/user-attachments/assets/3aa5a7b4-5db7-4527-9296-8a4c9353e9f4)
+![Home](https://github.com/user-attachments/assets/b2b82dd7-3ea5-48a1-b904-e3650512e968)
+![Profile](https://github.com/user-attachments/assets/994fc560-b722-4255-b8ee-1e2f2e261162)
+![Add Place](https://github.com/user-attachments/assets/edc32525-96b6-44e4-a65f-5238151937f2)
+![Places](https://github.com/user-attachments/assets/e367fa3f-c2d7-4819-b0ab-fba5edaaccd9)
+![Logout](https://github.com/user-attachments/assets/28bb1702-7a25-45b0-ac24-a377e06b4a08)
 
 ---
 
