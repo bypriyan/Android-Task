@@ -53,4 +53,8 @@ object AppModule {
         return db.placeDao()
     }
 
+    @Provides
+    @Singleton
+    fun provideGson(): Gson = Gson()
+
 }

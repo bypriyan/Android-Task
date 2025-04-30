@@ -50,13 +50,24 @@
                         android:src="@drawable/logo" />
 
                     <ImageView
+
                         android:id="@+id/mapPageBtn"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_centerVertical="true"
+                        android:padding="@dimen/_6sdp"
+                        android:layout_toLeftOf="@id/logoutBtn"
+                        android:src="@drawable/map_icon"
+                        app:tint="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/logoutBtn"
                         android:layout_width="@dimen/_30sdp"
                         android:layout_height="@dimen/_30sdp"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:padding="@dimen/_6sdp"
-                        android:src="@drawable/map_icon"
+                        android:src="@drawable/ic_logout"
                         app:tint="@color/white"/>
 
                 </RelativeLayout>
@@ -100,6 +111,18 @@
             android:paddingRight="@dimen/_15sdp"
             android:paddingLeft="@dimen/_15sdp"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/categoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Places"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclearPlaces"
