@@ -43,7 +43,7 @@ A Kotlin-based Android application to manage and explore your favorite places on
 - Firebase Authentication, Firestore, and Storage
 - Google Maps SDK
 - Room Database
-- DataStore (Proto)
+- DataStore
 - Dagger Hilt for Dependency Injection
 - Coroutines + Flow
 
@@ -91,7 +91,7 @@ cd Android-Task
    - Create a new project or use an existing one
    - Add your Android app to the project
    - Follow the instructions to download the `google-services.json` file and place it in the `app` directory
-   - Enable Firebase Authentication (Email/Password and Phone)
+   - Enable Firebase Authentication (Email/Password)
 
 4. Build and run the app on your Android device or emulator.
 
