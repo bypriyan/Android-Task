@@ -1,33 +1,51 @@
 # 📍 MyPlaces App
 
-An Android app to **add, view, and manage places** on a map with offline support using Room Database and Firebase services.
+A Kotlin-based Android application to manage and explore your favorite places on a map. Supports image uploads, offline access, Firebase authentication, and real-time syncing with Firestore.
 
 ---
 
 ## ✨ Features
 
-- 🔐 Firebase Authentication (Email/Password)
-- 🗺️ Google Maps integration
-- 🏞️ Add a place with name, description, photo, and location
-- ☁️ Firebase Firestore & Storage integration
-- 💾 Room Database for offline support
-- 📦 Data sync between local Room DB and Firestore
-- 🔄 Auto login using DataStore
-- 🖼️ Show custom markers with image thumbnails
-- 📤 Upload images with compression
-- 🚪 Logout with confirmation dialog
+- 🔐 **Authentication**
+  - Firebase Email/Password login and registration
+  - Auto-login with saved session using DataStore
+
+- 🧭 **Add Place**
+  - Pick location from interactive Google Map
+  - Add name, description, and photo
+  - Upload image to Firebase Storage with compression
+  - Save place to Firestore and Room (offline support)
+
+- 🗺️ **Map View**
+  - Display all added places as custom markers with image thumbnails
+  - Real-time data loading from Room
+
+- 🔄 **Data Sync**
+  - Firebase Firestore for online sync
+  - Room Database for offline access
+  - Auto-fetch user details from Firestore and cache locally
+
+- 🧹 **User Profile**
+  - Upload profile image
+  - Store user info in Firestore
+  - Load and cache user profile using DataStore
+
+- 🚪 **Logout**
+  - Logout option with confirmation alert dialog
+  - Redirect to authentication screen
 
 ---
 
-## 📸 Screenshots
+## ⚙️ Setup Instructions
 
-> _(Optional: Add screenshots in `/screenshots` folder and embed here)_
+### 🔧 Prerequisites
 
----
+- Android Studio Flamingo or higher
+- Firebase Project
+- Google Maps API Key
 
-## 🚀 Setup Instructions
+### 1. Clone this Repository
 
-### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/MyPlacesApp.git
 cd MyPlacesApp
