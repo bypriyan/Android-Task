@@ -9,9 +9,9 @@
         android:id="@+id/profileIv"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
-        android:layout_margin="@dimen/_12sdp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_place" />
+        android:layout_marginRight="@dimen/_12sdp"
+        android:layout_marginVertical="@dimen/_12sdp"
+        android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/nameTv"

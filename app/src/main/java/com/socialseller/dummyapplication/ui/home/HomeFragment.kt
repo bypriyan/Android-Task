@@ -58,6 +58,7 @@ class HomeFragment : Fragment() {
         //observe user data
         observeUserData()
         observeErrors()
+        toggleLoading(true)
 
         viewModel.syncFromFirestore()
 
@@ -66,6 +67,9 @@ class HomeFragment : Fragment() {
         }
         binding.mapPageBtn.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_mapFragment)
+        }
+        binding.profileImage.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_profileFragment)
         }
 
         binding.logoutBtn.setOnClickListener {
@@ -81,6 +85,7 @@ class HomeFragment : Fragment() {
     private fun observePlaces() {
         viewModel.places.observe(viewLifecycleOwner) { places ->
             Log.d("places", "observePlaces: $places")
+            toggleLoading(false)
             adapter.submitList(places)
         }
     }
@@ -129,6 +134,12 @@ class HomeFragment : Fragment() {
             .setNegativeButton("Cancel", null)
             .show()
     }
+
+    private fun toggleLoading(show: Boolean) {
+        binding.progressbar.visibility = if (show) View.VISIBLE else View.GONE
+        binding.recyclearPlaces.visibility = if (show) View.GONE else View.VISIBLE
+    }
+
 
 
     override fun onStop() {
