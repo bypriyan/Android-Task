@@ -48,10 +48,6 @@ class SignUpFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) = with(binding) {
         super.onViewCreated(view, savedInstanceState)
-        binding.fullNameEditText.setText("John Doe")
-        binding.emailEditText.setText("abc@gmail.com")
-        binding.passwordEditText.setText("Password@123")
-        binding.confirmPasswordEditText.setText("Password@123")
 
         galleryImage.setOnClickListener { openGallery() }
 
